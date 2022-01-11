@@ -37,10 +37,17 @@
     background-color: rgb(48, 212, 200);
     color: white;
 }
+@media(hover:hover){
 .button:hover {
     background-color: rgb(105, 99, 99);
     color: white;
-    transition: 0.5s ease-in-out;
+    transition: 1s ;
+}
+}
+.button:active{
+    background-color: rgb(105, 99, 99);
+    color: white;
+    transition: 2s ;
 }
 
 /* For Mobile */
